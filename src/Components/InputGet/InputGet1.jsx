@@ -10,7 +10,7 @@ const InputGet = () => {
       <div className="mainCardDown">
         {print ? <h1>{data}</h1> : null}
         <div>
-          <input type="tex" onChange={getData} />
+          <input type="text" onChange={getData} />
           <button onClick={() => setprint(true)}> Print Data</button>
         </div>
       </div>
