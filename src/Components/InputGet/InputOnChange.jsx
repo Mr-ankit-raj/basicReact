@@ -1,5 +1,5 @@
 import { useState } from "react";
-const InputGet = () => {
+const InputOnChange = () => {
   const [data, setdata] = useState(null);
   const [print, setprint] = useState(false);
   function getData(val) {
@@ -12,11 +12,11 @@ const InputGet = () => {
         {print ? <h1>{data}</h1> : null}
         <div>
           <input type="text" onChange={getData} />
-          <button onClick={() => setprint(true)}> Print Data</button>
+          <button onClick={() => setprint(true)}>Click Me</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default InputGet;
+export default InputOnChange;

@@ -7,12 +7,18 @@ import {
   Props1,
   Props2,
   InputGet,
+  InputOnChange,
+  HideAndShow,
+  Toggle,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Toggle />
+        <HideAndShow />
+        <InputOnChange />
         <InputGet />
         <State1 />
         <State2 />
