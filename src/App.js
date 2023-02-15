@@ -12,12 +12,14 @@ import {
   Toggle,
   Toggle1,
   FormHandle,
+  FormHandle1,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FormHandle1 />
         <FormHandle />
         <Toggle1 />
         <Toggle />

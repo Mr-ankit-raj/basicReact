@@ -10,6 +10,7 @@ import HideAndShow from "./InputGet/HideAndShow";
 import Toggle from "./InputGet/Toggle";
 import Toggle1 from "./InputGet/Toggle1";
 import FormHandle from "./FormHandle/FormHandle";
+import FormHandle1 from "./FormHandle/FormHandle1";
 
 export {
   State1,
@@ -24,4 +25,5 @@ export {
   Toggle,
   Toggle1,
   FormHandle,
+  FormHandle1,
 };
