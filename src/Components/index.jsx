@@ -8,6 +8,7 @@ import InputGet from "./InputGet/InputGet1";
 import InputOnChange from "./InputGet/InputOnChange";
 import HideAndShow from "./InputGet/HideAndShow";
 import Toggle from "./InputGet/Toggle";
+import Toggle1 from "./InputGet/Toggle1";
 
 export {
   State1,
@@ -20,4 +21,5 @@ export {
   InputOnChange,
   HideAndShow,
   Toggle,
+  Toggle1,
 };

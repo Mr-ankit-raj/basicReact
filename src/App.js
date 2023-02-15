@@ -10,12 +10,14 @@ import {
   InputOnChange,
   HideAndShow,
   Toggle,
+  Toggle1,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Toggle1 />
         <Toggle />
         <HideAndShow />
         <InputOnChange />
