@@ -11,12 +11,14 @@ import {
   HideAndShow,
   Toggle,
   Toggle1,
+  FormHandle,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FormHandle />
         <Toggle1 />
         <Toggle />
         <HideAndShow />
