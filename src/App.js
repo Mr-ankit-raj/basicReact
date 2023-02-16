@@ -13,12 +13,20 @@ import {
   Toggle1,
   FormHandle,
   FormHandle1,
+  FormHandle2,
+  ConditionalRender,
+  ConditionalRender1,
+  FormValidation,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FormValidation />
+        <ConditionalRender1 />
+        <ConditionalRender />
+        <FormHandle2 />
         <FormHandle1 />
         <FormHandle />
         <Toggle1 />

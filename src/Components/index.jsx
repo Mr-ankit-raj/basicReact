@@ -11,6 +11,10 @@ import Toggle from "./InputGet/Toggle";
 import Toggle1 from "./InputGet/Toggle1";
 import FormHandle from "./FormHandle/FormHandle";
 import FormHandle1 from "./FormHandle/FormHandle1";
+import FormHandle2 from "./FormHandle/FormHandle2";
+import ConditionalRender from "./ConditionalRendering/ConditionalRender";
+import ConditionalRender1 from "./ConditionalRendering/ConditionalRender1";
+import FormValidation from "./FormValidation/FormValidation";
 
 export {
   State1,
@@ -26,4 +30,8 @@ export {
   Toggle1,
   FormHandle,
   FormHandle1,
+  FormHandle2,
+  ConditionalRender,
+  ConditionalRender1,
+  FormValidation,
 };
