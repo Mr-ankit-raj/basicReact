@@ -10,9 +10,21 @@ const FormValidation1 = () => {
       <form onSubmit={GetData}>
         <h1>Hi</h1>
         <input type="text" onChange={userHandle} />
-        {userErr ? <span>User Invalid</span> : ""}
+        {userErr ? (
+          <span>
+            <p>User Invalid</p>
+          </span>
+        ) : (
+          ""
+        )}
         <input type="text" onChange={passHandle} />
-        {passErr ? <span>Password Invalid</span> : ""}
+        {passErr ? (
+          <span>
+            <p>Password Invalid</p>
+          </span>
+        ) : (
+          ""
+        )}
         <button type="submit">Submit</button>
       </form>
     </div>
