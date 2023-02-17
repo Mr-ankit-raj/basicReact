@@ -15,6 +15,7 @@ import FormHandle2 from "./FormHandle/FormHandle2";
 import ConditionalRender from "./ConditionalRendering/ConditionalRender";
 import ConditionalRender1 from "./ConditionalRendering/ConditionalRender1";
 import FormValidation from "./FormValidation/FormValidation";
+import FormValidation1 from "./FormValidation/FormValidation1";
 
 export {
   State1,
@@ -34,4 +35,5 @@ export {
   ConditionalRender,
   ConditionalRender1,
   FormValidation,
+  FormValidation1,
 };

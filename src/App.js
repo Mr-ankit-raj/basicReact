@@ -17,12 +17,14 @@ import {
   ConditionalRender,
   ConditionalRender1,
   FormValidation,
+  FormValidation1,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FormValidation1 />
         <FormValidation />
         <ConditionalRender1 />
         <ConditionalRender />
