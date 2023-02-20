@@ -18,12 +18,14 @@ import {
   ConditionalRender1,
   FormValidation,
   FormValidation1,
+  UseEffect1,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <UseEffect1 />
         <FormValidation1 />
         <FormValidation />
         <ConditionalRender1 />

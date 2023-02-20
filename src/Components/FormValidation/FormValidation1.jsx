@@ -5,6 +5,9 @@ const FormValidation1 = () => {
   const [pass, setPass] = useState();
   const [userErr, setUserErr] = useState(false);
   const [passErr, setpassErr] = useState(false);
+  function GetData(e) {
+    e.preventDefault();
+  }
   return (
     <div className="mainCard">
       <form onSubmit={GetData}>

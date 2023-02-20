@@ -16,6 +16,7 @@ import ConditionalRender from "./ConditionalRendering/ConditionalRender";
 import ConditionalRender1 from "./ConditionalRendering/ConditionalRender1";
 import FormValidation from "./FormValidation/FormValidation";
 import FormValidation1 from "./FormValidation/FormValidation1";
+import UseEffect1 from "./UseEffect/UseEffect1";
 
 export {
   State1,
@@ -36,4 +37,5 @@ export {
   ConditionalRender1,
   FormValidation,
   FormValidation1,
+  UseEffect1,
 };
