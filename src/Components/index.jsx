@@ -17,6 +17,11 @@ import ConditionalRender1 from "./ConditionalRendering/ConditionalRender1";
 import FormValidation from "./FormValidation/FormValidation";
 import FormValidation1 from "./FormValidation/FormValidation1";
 import UseEffect1 from "./UseEffect/UseEffect1";
+import ClickEvent from "./ClickEvent/ClickEvent";
+import ClickEvent1 from "./ClickEvent/ClickEvent1";
+import Clicktoggle from "./ClickEvent/Clicktoggle";
+import ClickHideShow from "./ClickEvent/ClickHideShow";
+import ClickInputGet from "./ClickEvent/ClickInputGet";
 
 export {
   State1,
@@ -38,4 +43,9 @@ export {
   FormValidation,
   FormValidation1,
   UseEffect1,
+  ClickEvent,
+  ClickEvent1,
+  Clicktoggle,
+  ClickHideShow,
+  ClickInputGet,
 };

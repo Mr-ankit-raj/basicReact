@@ -2,7 +2,7 @@
 const UseEffect = () => {
   //   const [data, setData] = useState(0);
   return (
-    <div>
+    <div className="mainCard">
       <h1>UseEffect</h1>
       <button>Use Effect Click Me</button>
     </div>

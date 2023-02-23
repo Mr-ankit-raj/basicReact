@@ -19,12 +19,22 @@ import {
   FormValidation,
   FormValidation1,
   UseEffect1,
+  ClickEvent,
+  ClickEvent1,
+  Clicktoggle,
+  ClickHideShow,
+  ClickInputGet,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <ClickInputGet />
+        <ClickHideShow />
+        <Clicktoggle />
+        <ClickEvent1 />
+        <ClickEvent />
         <UseEffect1 />
         <FormValidation1 />
         <FormValidation />
