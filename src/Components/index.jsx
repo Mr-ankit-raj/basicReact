@@ -22,7 +22,8 @@ import ClickEvent1 from "./ClickEvent/ClickEvent1";
 import Clicktoggle from "./ClickEvent/Clicktoggle";
 import ClickHideShow from "./ClickEvent/ClickHideShow";
 import ClickInputGet from "./ClickEvent/ClickInputGet";
-import GetMethodApi from "./API/GetMethodApi";
+// import GetMethodApi from "./API/GetMethodApi";
+import GetApi from "./API/GetApi";
 
 export {
   State1,
@@ -49,5 +50,6 @@ export {
   Clicktoggle,
   ClickHideShow,
   ClickInputGet,
-  GetMethodApi,
+  // GetMethodApi,
+  GetApi,
 };

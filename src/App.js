@@ -24,14 +24,16 @@ import {
   // Clicktoggle,
   // ClickHideShow,
   // ClickInputGet,
-  GetMethodApi,
+  // GetMethodApi,
+  GetApi,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <GetMethodApi />
+        <GetApi />
+        {/* <GetMethodApi /> */}
         {/* <ClickInputGet />
         <ClickHideShow />
         <Clicktoggle />
