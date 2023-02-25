@@ -1,36 +1,38 @@
 import "./App.css";
 import {
-  State1,
-  State2,
-  State3,
-  State4,
-  Props1,
-  Props2,
-  InputGet,
-  InputOnChange,
-  HideAndShow,
-  Toggle,
-  Toggle1,
-  FormHandle,
-  FormHandle1,
-  FormHandle2,
-  ConditionalRender,
-  ConditionalRender1,
-  FormValidation,
-  FormValidation1,
-  UseEffect1,
-  ClickEvent,
-  ClickEvent1,
-  Clicktoggle,
-  ClickHideShow,
-  ClickInputGet,
+  // State1,
+  // State2,
+  // State3,
+  // State4,
+  // Props1,
+  // Props2,
+  // InputGet,
+  // InputOnChange,
+  // HideAndShow,
+  // Toggle,
+  // Toggle1,
+  // FormHandle,
+  // FormHandle1,
+  // FormHandle2,
+  // ConditionalRender,
+  // ConditionalRender1,
+  // FormValidation,
+  // FormValidation1,
+  // UseEffect1,
+  // ClickEvent,
+  // ClickEvent1,
+  // Clicktoggle,
+  // ClickHideShow,
+  // ClickInputGet,
+  GetMethodApi,
 } from "./Components";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ClickInputGet />
+        <GetMethodApi />
+        {/* <ClickInputGet />
         <ClickHideShow />
         <Clicktoggle />
         <ClickEvent1 />
@@ -53,7 +55,7 @@ function App() {
         <State3 />
         <State4 />
         <Props2 item="Sumit" roll="30" />
-        <Props1 item="Akki" roll="20" />
+        <Props1 item="Akki" roll="20" /> */}
       </header>
     </div>
   );
