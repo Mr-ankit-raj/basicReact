@@ -16,14 +16,16 @@ const GetApi = () =>{
                 <thead>
                     <tr>
                         <td>S no.</td>
-                        <td>Title</td>
+                        <td>Name</td>
+                        <td>Email</td>
                         <td>Body</td>
                     </tr>
                 </thead>
                 {
-                    post.map((CurrentEle)=>{
+                    post.map((CurrentEle,i)=>{
                         return(
                             <tr>
+                        <td>{i + 1}</td>
                         <td>{CurrentEle.name}</td>
                         <td>{CurrentEle.email}</td>
                         <td>{CurrentEle.body}</td>

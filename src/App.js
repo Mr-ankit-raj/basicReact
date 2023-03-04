@@ -33,8 +33,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <GetApi />
-        {/* <GetMethodApi /> */}
-        {/* <ClickInputGet />
+        {/* <GetMethodApi />
+        <ClickInputGet />
         <ClickHideShow />
         <Clicktoggle />
         <ClickEvent1 />
