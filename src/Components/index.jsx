@@ -28,7 +28,7 @@ import GetApi from "./API/GetApi";
 export {
   State1,
   State2,
-  State3
+  State3,
   State4,
   Props1,
   Props2,
