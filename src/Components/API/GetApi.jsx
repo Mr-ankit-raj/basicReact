@@ -12,7 +12,7 @@ const GetApi = () =>{
     return(
         <div>
             <h1>Get Api</h1>
-            <table>
+            <table >
                 <thead>
                     <tr>
                         <td>S no.</td>
@@ -24,7 +24,7 @@ const GetApi = () =>{
                 {
                     post.map((CurrentEle,i)=>{
                         return(
-                            <tr>
+                            <tr key={i}>
                         <td>{i + 1}</td>
                         <td>{CurrentEle.name}</td>
                         <td>{CurrentEle.email}</td>
