@@ -12,7 +12,7 @@ const HideAndShow = () => {
           <button onClick={() => setstatus(true)}>Show</button>
         </div>
       </div>
-    </div>
+    </div
   );
 };
 export default HideAndShow;
